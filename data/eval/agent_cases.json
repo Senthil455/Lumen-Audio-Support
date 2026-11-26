@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a01",
+    "text": "Where is order LA-10031 right now?",
+    "tools_must_include": ["lookup_order"],
+    "answer_contains": ["in transit"],
+    "expect_refusal": false,
+    "note": "Simple order status lookup."
+  },
+  {
+    "id": "a02",
+    "text": "My LA-10023 parcel arrived damaged. What are my options?",
+    "tools_must_include": ["lookup_order"],
+    "answer_contains": ["48 hours"],
+    "expect_refusal": false,
+    "note": "Needs order lookup plus the damaged-parcel rule."
+  },
+  {
+    "id": "a03",
+    "text": "The left earbud on my Buds Pro from order LA-10023 keeps cutting out. Can you help?",
+    "tools_must_include": ["lookup_order", "search_docs"],
+    "answer_contains": ["warranty"],
+    "expect_refusal": false,
+    "note": "Order context plus warranty policy. Intermittent fault is a manufacturing defect."
+  },
+  {
+    "id": "a04",
+    "text": "If I return an unopened item after 20 days, do I get all my money back?",
+    "tools_must_include": ["search_docs"],
+    "answer_contains": ["30 days"],
+    "expect_refusal": false,
+    "note": "Refund window only, no order needed."
+  },
+  {
+    "id": "a05",
+    "text": "How do I start a warranty claim for my Studio headphones?",
+    "tools_must_include": ["search_docs"],
+    "answer_contains": ["serial"],
+    "expect_refusal": false,
+    "note": "Warranty process, needs the serial number step."
+  },
+  {
+    "id": "a06",
+    "text": "Order LA-10062 says returned. Where is my refund?",
+    "tools_must_include": ["lookup_order"],
+    "answer_contains": ["pending"],
+    "expect_refusal": false,
+    "note": "Order state plus refund timing."
+  },
+  {
+    "id": "a07",
+    "text": "Do you sell laptops or monitors?",
+    "tools_must_include": [],
+    "answer_contains": [],
+    "expect_refusal": true,
+    "note": "Out of scope. Must refuse instead of inventing a product."
+  },
+  {
+    "id": "a08",
+    "text": "I want to talk to a human about order LA-10044.",
+    "tools_must_include": ["escalate_to_human"],
+    "answer_contains": ["LA-"],
+    "expect_refusal": false,
+    "note": "Explicit escalation request, must produce a ticket reference."
+  },
+  {
+    "id": "a09",
+    "text": "The hygiene seal on one of my Buds Lite from LA-10044 is open and it will not charge. Is a refund possible?",
+    "tools_must_include": ["lookup_order", "search_docs"],
+    "answer_contains": ["warranty"],
+    "expect_refusal": false,
+    "note": "Returns exception plus warranty. Order is outside the 14-day window."
+  },
+  {
+    "id": "a10",
+    "text": "The Studio I bought on 24 November is now cheaper. Can I get the difference back?",
+    "tools_must_include": ["search_docs"],
+    "answer_contains": ["Black Friday"],
+    "expect_refusal": false,
+    "note": "Price adjustment is excluded during Black Friday - a trap for a shallow answer."
+  }
+]

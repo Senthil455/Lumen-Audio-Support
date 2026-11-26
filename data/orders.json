@@ -1,0 +1,94 @@
+{
+  "LA-10023": {
+    "order_id": "LA-10023",
+    "customer": "R. Mensah",
+    "email_masked": "r.***@example.com",
+    "placed": "2026-11-18",
+    "status": "delivered",
+    "delivered": "2026-11-21",
+    "carrier": "UPS",
+    "tracking": "1Z999AA10123456784",
+    "items": [
+      {"sku": "BPR-179", "name": "Lumen Buds Pro", "qty": 1, "price_usd": 179.0}
+    ],
+    "total_usd": 179.0,
+    "payment_method": "Visa ending 4412",
+    "refund_eligible_until": "2026-12-05",
+    "warranty": "2-year limited warranty, active",
+    "notes": "Opened. Customer reported the left earbud cuts out intermittently."
+  },
+  "LA-10031": {
+    "order_id": "LA-10031",
+    "customer": "A. Fernandes",
+    "email_masked": "a.***@example.com",
+    "placed": "2026-11-24",
+    "status": "in transit",
+    "delivered": null,
+    "carrier": "FedEx",
+    "tracking": "7749 1023 4455",
+    "items": [
+      {"sku": "STU-299", "name": "Lumen Studio Over-Ear", "qty": 1, "price_usd": 299.0},
+      {"sku": "CUS-029", "name": "Ear cushion pair", "qty": 1, "price_usd": 29.0}
+    ],
+    "total_usd": 328.0,
+    "payment_method": "PayPal",
+    "refund_eligible_until": null,
+    "warranty": "2-year limited warranty, starts on delivery",
+    "notes": "Black Friday purchase. Address change requested after packing."
+  },
+  "LA-10044": {
+    "order_id": "LA-10044",
+    "customer": "S. Iyer",
+    "email_masked": "s.***@example.com",
+    "placed": "2026-10-02",
+    "status": "delivered",
+    "delivered": "2026-10-06",
+    "carrier": "USPS",
+    "tracking": "9400 1000 0000 0000 0000 01",
+    "items": [
+      {"sku": "BLT-089", "name": "Lumen Buds Lite", "qty": 2, "price_usd": 89.0}
+    ],
+    "total_usd": 178.0,
+    "payment_method": "Mastercard ending 8890",
+    "refund_eligible_until": "2026-10-20",
+    "warranty": "1-year limited warranty, active until 2027-10-06",
+    "notes": "Hygiene seal opened on one unit. Outside the 14-day opened-item window."
+  },
+  "LA-10057": {
+    "order_id": "LA-10057",
+    "customer": "M. Okafor",
+    "email_masked": "m.***@example.com",
+    "placed": "2026-11-25",
+    "status": "processing",
+    "delivered": null,
+    "carrier": null,
+    "tracking": null,
+    "items": [
+      {"sku": "MIN-059", "name": "Lumen Mini Speaker", "qty": 1, "price_usd": 59.0},
+      {"sku": "BPR-179", "name": "Lumen Buds Pro", "qty": 1, "price_usd": 179.0}
+    ],
+    "total_usd": 238.0,
+    "payment_method": "Klarna, 4 instalments",
+    "refund_eligible_until": null,
+    "warranty": "not registered",
+    "notes": "Order value over 75 USD so standard shipping is free. Not yet packed."
+  },
+  "LA-10062": {
+    "order_id": "LA-10062",
+    "customer": "L. Bergstrom",
+    "email_masked": "l.***@example.com",
+    "placed": "2026-11-12",
+    "status": "returned",
+    "delivered": "2026-11-15",
+    "carrier": "UPS",
+    "tracking": "1Z999AA10123456799",
+    "items": [
+      {"sku": "BPR-179", "name": "Lumen Buds Pro", "qty": 1, "price_usd": 179.0}
+    ],
+    "total_usd": 179.0,
+    "payment_method": "Visa ending 3320",
+    "refund_eligible_until": "2026-11-29",
+    "warranty": "2-year limited warranty, not registered",
+    "notes": "Return received 2026-11-22 with RMA-8842. Refund pending, restocking fee applies."
+  }
+}

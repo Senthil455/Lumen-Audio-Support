@@ -1,0 +1,40 @@
+{"id": "t01", "text": "I want my money back for the Buds Lite", "label": "refunds"}
+{"id": "t02", "text": "How long until the refund shows up on my card?", "label": "refunds"}
+{"id": "t03", "text": "Can I get store credit instead of a refund for a gift?", "label": "refunds"}
+{"id": "t04", "text": "Is there a restocking fee if I opened the box?", "label": "refunds"}
+{"id": "t05", "text": "How do I get an RMA number?", "label": "returns"}
+{"id": "t06", "text": "Can I return ear tips if the seal is broken?", "label": "returns"}
+{"id": "t07", "text": "What has to be in the box when I send it back?", "label": "returns"}
+{"id": "t08", "text": "My parcel came back to you as undeliverable, do I get the shipping back?", "label": "returns"}
+{"id": "t09", "text": "Does the warranty cover a cracked housing?", "label": "warranty"}
+{"id": "t10", "text": "Where do I find the serial number?", "label": "warranty"}
+{"id": "t11", "text": "How much is an out-of-warranty repair for the Studio?", "label": "warranty"}
+{"id": "t12", "text": "Is the warranty still valid in Germany?", "label": "warranty"}
+{"id": "t13", "text": "How much is shipping to Alaska?", "label": "shipping"}
+{"id": "t14", "text": "When is the cut-off for same-day delivery in Chicago?", "label": "shipping"}
+{"id": "t15", "text": "Do you ship to Japan?", "label": "shipping"}
+{"id": "t16", "text": "My tracking has not updated in a week, what now?", "label": "shipping"}
+{"id": "t17", "text": "Can I pay with Klarna?", "label": "payments"}
+{"id": "t18", "text": "Why is there a hold on my card?", "label": "payments"}
+{"id": "t19", "text": "Do you charge a currency conversion fee?", "label": "payments"}
+{"id": "t20", "text": "My payment was declined, what happens to the order?", "label": "payments"}
+{"id": "t21", "text": "How do I turn on two-factor authentication?", "label": "account"}
+{"id": "t22", "text": "How long does deleting my account take?", "label": "account"}
+{"id": "t23", "text": "I changed my email but the confirmation went to the old one", "label": "account"}
+{"id": "t24", "text": "How do I download a copy of my data?", "label": "account"}
+{"id": "t25", "text": "Can I stack two coupons?", "label": "promotions"}
+{"id": "t26", "text": "What is the referral credit worth?", "label": "promotions"}
+{"id": "t27", "text": "Does the student discount work on sale items?", "label": "promotions"}
+{"id": "t28", "text": "When is the Black Friday event this year?", "label": "promotions"}
+{"id": "t29", "text": "How long does the Mini Speaker battery last?", "label": "products"}
+{"id": "t30", "text": "Is the Studio over-ear water resistant?", "label": "products"}
+{"id": "t31", "text": "What is the price of the Buds Pro?", "label": "products"}
+{"id": "t32", "text": "Are the Studio ear cushions replaceable?", "label": "products"}
+{"id": "t33", "text": "What time does support close?", "label": "support"}
+{"id": "t34", "text": "What is the phone number for US customers?", "label": "support"}
+{"id": "t35", "text": "How long do I wait for a first reply by email?", "label": "support"}
+{"id": "t36", "text": "What does a ticket reference look like?", "label": "support"}
+{"id": "t37", "text": "Can you recommend a good laptop for video editing?", "label": "out_of_scope"}
+{"id": "t38", "text": "Who won the football match last night?", "label": "out_of_scope"}
+{"id": "t39", "text": "What is your stock price today?", "label": "out_of_scope"}
+{"id": "t40", "text": "Write me a poem about the ocean.", "label": "out_of_scope"}

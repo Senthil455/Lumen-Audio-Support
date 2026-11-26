@@ -1,0 +1,480 @@
+{"text": "how does price adjustments work", "label": "promotions"}
+{"text": "how does payments work", "label": "payments"}
+{"text": "can you explain stock prices", "label": "out_of_scope"}
+{"text": "tell me about contacting support", "label": "support"}
+{"text": "what are the rules for returning opened ear tips", "label": "returns"}
+{"text": "I have a question about a declined card", "label": "payments"}
+{"text": "is there a limit on the student discount", "label": "promotions"}
+{"text": "what are the rules for phone plans", "label": "out_of_scope"}
+{"text": "is there a limit on price adjustments", "label": "promotions"}
+{"text": "can you explain ticket references", "label": "support"}
+{"text": "how long does my account take", "label": "account"}
+{"text": "what is the policy on a declined card", "label": "payments"}
+{"text": "what are the rules for the restocking fee", "label": "refunds"}
+{"text": "is there a limit on return shipping labels", "label": "returns"}
+{"text": "is there a limit on stock prices", "label": "out_of_scope"}
+{"text": "I have a question about Klarna instalments", "label": "payments"}
+{"text": "how long does a declined card take", "label": "payments"}
+{"text": "tell me about a declined card", "label": "payments"}
+{"text": "can you explain shipping", "label": "shipping"}
+{"text": "tell me about returning opened ear tips", "label": "returns"}
+{"text": "what is the policy on the warranty", "label": "warranty"}
+{"text": "what are the rules for the Mini Speaker", "label": "products"}
+{"text": "what is the policy on the Mini Speaker", "label": "products"}
+{"text": "is there a limit on response times", "label": "support"}
+{"text": "can you explain express delivery", "label": "shipping"}
+{"text": "I have a question about price adjustments", "label": "promotions"}
+{"text": "I have a question about the authorisation hold", "label": "payments"}
+{"text": "can you explain a recipe", "label": "out_of_scope"}
+{"text": "how long does changing my email address take", "label": "account"}
+{"text": "how long does the serial number take", "label": "warranty"}
+{"text": "what are the rules for warranty in another country", "label": "warranty"}
+{"text": "tell me about payments", "label": "payments"}
+{"text": "tell me about the RMA process", "label": "returns"}
+{"text": "tell me about the weather", "label": "out_of_scope"}
+{"text": "what are the rules for a recipe", "label": "out_of_scope"}
+{"text": "what are the rules for return shipping labels", "label": "returns"}
+{"text": "tell me about sending an item back", "label": "returns"}
+{"text": "I have a question about stacking coupons", "label": "promotions"}
+{"text": "can you explain same-day delivery", "label": "shipping"}
+{"text": "what is the policy on stock prices", "label": "out_of_scope"}
+{"text": "how does the Black Friday sale work", "label": "promotions"}
+{"text": "how long does stock prices take", "label": "out_of_scope"}
+{"text": "how does the serial number work", "label": "warranty"}
+{"text": "how does the restocking fee work", "label": "refunds"}
+{"text": "what are the rules for refund timing", "label": "refunds"}
+{"text": "how long does the Mini Speaker take", "label": "products"}
+{"text": "what is the policy on shipping", "label": "shipping"}
+{"text": "I have a question about the referral credit", "label": "promotions"}
+{"text": "what are the rules for the serial number", "label": "warranty"}
+{"text": "is there a limit on phone plans", "label": "out_of_scope"}
+{"text": "what is the policy on refunds", "label": "refunds"}
+{"text": "how long does when my card is charged take", "label": "payments"}
+{"text": "how long does the Studio headphones take", "label": "products"}
+{"text": "what are the rules for battery capacity coverage", "label": "warranty"}
+{"text": "tell me about resetting my password", "label": "account"}
+{"text": "can you explain the weather", "label": "out_of_scope"}
+{"text": "what is the policy on phone plans", "label": "out_of_scope"}
+{"text": "how does out-of-warranty repairs work", "label": "warranty"}
+{"text": "what are the rules for escalating a ticket", "label": "support"}
+{"text": "I have a question about support opening hours", "label": "support"}
+{"text": "how does a recipe work", "label": "out_of_scope"}
+{"text": "how does deleting my account work", "label": "account"}
+{"text": "is there a limit on shipping", "label": "shipping"}
+{"text": "can you explain writing code", "label": "out_of_scope"}
+{"text": "what are the rules for sending an item back", "label": "returns"}
+{"text": "how long does escalating a ticket take", "label": "support"}
+{"text": "what are the rules for discounts", "label": "promotions"}
+{"text": "can you explain ear cushion replacements", "label": "products"}
+{"text": "tell me about product prices", "label": "products"}
+{"text": "tell me about deleting my account", "label": "account"}
+{"text": "is there a limit on escalating a ticket", "label": "support"}
+{"text": "tell me about shipping", "label": "shipping"}
+{"text": "what are the rules for payments", "label": "payments"}
+{"text": "how does two-factor authentication work", "label": "account"}
+{"text": "tell me about response times", "label": "support"}
+{"text": "how does the warranty work", "label": "warranty"}
+{"text": "I have a question about the Studio headphones", "label": "products"}
+{"text": "what is the policy on support opening hours", "label": "support"}
+{"text": "what is the policy on returning opened ear tips", "label": "returns"}
+{"text": "how does the phone number work", "label": "support"}
+{"text": "tell me about changing my email address", "label": "account"}
+{"text": "how long does the phone number take", "label": "support"}
+{"text": "how does contacting support work", "label": "support"}
+{"text": "what are the rules for laptops", "label": "out_of_scope"}
+{"text": "what are the rules for the referral credit", "label": "promotions"}
+{"text": "what are the rules for currency conversion", "label": "payments"}
+{"text": "how does the Studio headphones work", "label": "products"}
+{"text": "what is the policy on laptops", "label": "out_of_scope"}
+{"text": "I have a question about response times", "label": "support"}
+{"text": "how long does payments take", "label": "payments"}
+{"text": "how does a declined card work", "label": "payments"}
+{"text": "what is the policy on payments", "label": "payments"}
+{"text": "tell me about the 30-day return window", "label": "returns"}
+{"text": "tell me about the student discount", "label": "promotions"}
+{"text": "how long does the product range take", "label": "products"}
+{"text": "how does the student discount work", "label": "promotions"}
+{"text": "can you explain changing my email address", "label": "account"}
+{"text": "what is the policy on the authorisation hold", "label": "payments"}
+{"text": "how does resetting my password work", "label": "account"}
+{"text": "what are the rules for express delivery", "label": "shipping"}
+{"text": "tell me about currency conversion", "label": "payments"}
+{"text": "what is the policy on the weather", "label": "out_of_scope"}
+{"text": "I have a question about contacting support", "label": "support"}
+{"text": "what is the policy on battery capacity coverage", "label": "warranty"}
+{"text": "can you explain the referral credit", "label": "promotions"}
+{"text": "is there a limit on a recipe", "label": "out_of_scope"}
+{"text": "tell me about discounts", "label": "promotions"}
+{"text": "I have a question about refunds", "label": "refunds"}
+{"text": "what are the rules for out-of-warranty repairs", "label": "warranty"}
+{"text": "is there a limit on product prices", "label": "products"}
+{"text": "is there a limit on support opening hours", "label": "support"}
+{"text": "can you explain the warranty", "label": "warranty"}
+{"text": "can you explain response times", "label": "support"}
+{"text": "can you explain the Mini Speaker", "label": "products"}
+{"text": "is there a limit on the 30-day return window", "label": "returns"}
+{"text": "what is the policy on when my card is charged", "label": "payments"}
+{"text": "what are the rules for international shipping", "label": "shipping"}
+{"text": "can you explain tracking my parcel", "label": "shipping"}
+{"text": "tell me about battery capacity coverage", "label": "warranty"}
+{"text": "how long does same-day delivery take", "label": "shipping"}
+{"text": "what are the rules for tracking my parcel", "label": "shipping"}
+{"text": "I have a question about international shipping", "label": "shipping"}
+{"text": "how long does discounts take", "label": "promotions"}
+{"text": "what are the rules for same-day delivery", "label": "shipping"}
+{"text": "what is the policy on writing code", "label": "out_of_scope"}
+{"text": "how does currency conversion work", "label": "payments"}
+{"text": "can you explain the student discount", "label": "promotions"}
+{"text": "I have a question about tracking my parcel", "label": "shipping"}
+{"text": "is there a limit on the warranty", "label": "warranty"}
+{"text": "is there a limit on the Studio headphones", "label": "products"}
+{"text": "can you explain returns", "label": "returns"}
+{"text": "tell me about Klarna instalments", "label": "payments"}
+{"text": "how does escalating a ticket work", "label": "support"}
+{"text": "how does returns work", "label": "returns"}
+{"text": "how does the referral credit work", "label": "promotions"}
+{"text": "I have a question about returns", "label": "returns"}
+{"text": "how does the RMA process work", "label": "returns"}
+{"text": "what are the rules for when my card is charged", "label": "payments"}
+{"text": "tell me about two-factor authentication", "label": "account"}
+{"text": "how does stacking coupons work", "label": "promotions"}
+{"text": "tell me about a refund to my card", "label": "refunds"}
+{"text": "how does same-day delivery work", "label": "shipping"}
+{"text": "how does the authorisation hold work", "label": "payments"}
+{"text": "I have a question about payments", "label": "payments"}
+{"text": "can you explain the Studio headphones", "label": "products"}
+{"text": "can you explain resetting my password", "label": "account"}
+{"text": "is there a limit on payments", "label": "payments"}
+{"text": "what are the rules for exporting my data", "label": "account"}
+{"text": "is there a limit on resetting my password", "label": "account"}
+{"text": "I have a question about a refund to my card", "label": "refunds"}
+{"text": "I have a question about returning opened ear tips", "label": "returns"}
+{"text": "tell me about exporting my data", "label": "account"}
+{"text": "what are the rules for a warranty claim", "label": "warranty"}
+{"text": "I have a question about the phone number", "label": "support"}
+{"text": "what are the rules for stock prices", "label": "out_of_scope"}
+{"text": "I have a question about ear cushion replacements", "label": "products"}
+{"text": "is there a limit on international shipping", "label": "shipping"}
+{"text": "how long does sending an item back take", "label": "returns"}
+{"text": "how long does tracking my parcel take", "label": "shipping"}
+{"text": "how long does the authorisation hold take", "label": "payments"}
+{"text": "how does ear cushion replacements work", "label": "products"}
+{"text": "I have a question about exporting my data", "label": "account"}
+{"text": "what are the rules for the 30-day return window", "label": "returns"}
+{"text": "I have a question about escalating a ticket", "label": "support"}
+{"text": "tell me about express delivery", "label": "shipping"}
+{"text": "how long does deleting my account take", "label": "account"}
+{"text": "how long does getting my money back take", "label": "refunds"}
+{"text": "how does refund timing work", "label": "refunds"}
+{"text": "tell me about the authorisation hold", "label": "payments"}
+{"text": "tell me about the restocking fee", "label": "refunds"}
+{"text": "can you explain the 30-day return window", "label": "returns"}
+{"text": "tell me about the serial number", "label": "warranty"}
+{"text": "tell me about phone plans", "label": "out_of_scope"}
+{"text": "how long does Klarna instalments take", "label": "payments"}
+{"text": "what are the rules for ear cushion replacements", "label": "products"}
+{"text": "I have a question about currency conversion", "label": "payments"}
+{"text": "how long does response times take", "label": "support"}
+{"text": "I have a question about the refund policy", "label": "refunds"}
+{"text": "I have a question about return shipping labels", "label": "returns"}
+{"text": "is there a limit on returns", "label": "returns"}
+{"text": "what are the rules for a declined card", "label": "payments"}
+{"text": "can you explain a refund to my card", "label": "refunds"}
+{"text": "can you explain exporting my data", "label": "account"}
+{"text": "how long does international shipping take", "label": "shipping"}
+{"text": "what are the rules for resetting my password", "label": "account"}
+{"text": "how does the 30-day return window work", "label": "returns"}
+{"text": "what is the policy on the Studio headphones", "label": "products"}
+{"text": "tell me about the referral credit", "label": "promotions"}
+{"text": "I have a question about sending an item back", "label": "returns"}
+{"text": "is there a limit on exporting my data", "label": "account"}
+{"text": "how long does ear cushion replacements take", "label": "products"}
+{"text": "I have a question about warranty in another country", "label": "warranty"}
+{"text": "can you explain the RMA process", "label": "returns"}
+{"text": "I have a question about the serial number", "label": "warranty"}
+{"text": "tell me about ticket references", "label": "support"}
+{"text": "what is the policy on product prices", "label": "products"}
+{"text": "what is the policy on return shipping labels", "label": "returns"}
+{"text": "how does writing code work", "label": "out_of_scope"}
+{"text": "is there a limit on currency conversion", "label": "payments"}
+{"text": "how does shipping work", "label": "shipping"}
+{"text": "can you explain two-factor authentication", "label": "account"}
+{"text": "how long does contacting support take", "label": "support"}
+{"text": "how long does refunds take", "label": "refunds"}
+{"text": "tell me about my account", "label": "account"}
+{"text": "I have a question about out-of-warranty repairs", "label": "warranty"}
+{"text": "how long does ticket references take", "label": "support"}
+{"text": "tell me about the Mini Speaker", "label": "products"}
+{"text": "how does sending an item back work", "label": "returns"}
+{"text": "can you explain product prices", "label": "products"}
+{"text": "I have a question about shipping", "label": "shipping"}
+{"text": "I have a question about product prices", "label": "products"}
+{"text": "tell me about a recipe", "label": "out_of_scope"}
+{"text": "what are the rules for response times", "label": "support"}
+{"text": "what are the rules for shipping", "label": "shipping"}
+{"text": "can you explain discounts", "label": "promotions"}
+{"text": "can you explain international shipping", "label": "shipping"}
+{"text": "can you explain escalating a ticket", "label": "support"}
+{"text": "how long does a recipe take", "label": "out_of_scope"}
+{"text": "can you explain sending an item back", "label": "returns"}
+{"text": "tell me about writing code", "label": "out_of_scope"}
+{"text": "what is the policy on tracking my parcel", "label": "shipping"}
+{"text": "what is the policy on contacting support", "label": "support"}
+{"text": "I have a question about the Black Friday sale", "label": "promotions"}
+{"text": "how does laptops work", "label": "out_of_scope"}
+{"text": "I have a question about phone plans", "label": "out_of_scope"}
+{"text": "is there a limit on Klarna instalments", "label": "payments"}
+{"text": "is there a limit on ear cushion replacements", "label": "products"}
+{"text": "how does warranty in another country work", "label": "warranty"}
+{"text": "what are the rules for my account", "label": "account"}
+{"text": "how long does a warranty claim take", "label": "warranty"}
+{"text": "what are the rules for product prices", "label": "products"}
+{"text": "is there a limit on when my card is charged", "label": "payments"}
+{"text": "tell me about refunds", "label": "refunds"}
+{"text": "how long does stacking coupons take", "label": "promotions"}
+{"text": "what is the policy on discounts", "label": "promotions"}
+{"text": "how long does the restocking fee take", "label": "refunds"}
+{"text": "is there a limit on warranty in another country", "label": "warranty"}
+{"text": "is there a limit on the referral credit", "label": "promotions"}
+{"text": "I have a question about the weather", "label": "out_of_scope"}
+{"text": "how long does return shipping labels take", "label": "returns"}
+{"text": "tell me about warranty in another country", "label": "warranty"}
+{"text": "what is the policy on the product range", "label": "products"}
+{"text": "is there a limit on getting my money back", "label": "refunds"}
+{"text": "can you explain payments", "label": "payments"}
+{"text": "I have a question about ticket references", "label": "support"}
+{"text": "tell me about the Black Friday sale", "label": "promotions"}
+{"text": "is there a limit on my account", "label": "account"}
+{"text": "I have a question about a recipe", "label": "out_of_scope"}
+{"text": "what are the rules for the warranty", "label": "warranty"}
+{"text": "can you explain the delivery cut-off", "label": "shipping"}
+{"text": "tell me about stacking coupons", "label": "promotions"}
+{"text": "what is the policy on stacking coupons", "label": "promotions"}
+{"text": "I have a question about the delivery cut-off", "label": "shipping"}
+{"text": "what is the policy on the RMA process", "label": "returns"}
+{"text": "is there a limit on contacting support", "label": "support"}
+{"text": "is there a limit on the RMA process", "label": "returns"}
+{"text": "I have a question about Buds Pro specifications", "label": "products"}
+{"text": "how does my account work", "label": "account"}
+{"text": "tell me about getting my money back", "label": "refunds"}
+{"text": "how does exporting my data work", "label": "account"}
+{"text": "how long does refund timing take", "label": "refunds"}
+{"text": "I have a question about discounts", "label": "promotions"}
+{"text": "what is the policy on the Black Friday sale", "label": "promotions"}
+{"text": "what are the rules for contacting support", "label": "support"}
+{"text": "I have a question about express delivery", "label": "shipping"}
+{"text": "tell me about returns", "label": "returns"}
+{"text": "I have a question about laptops", "label": "out_of_scope"}
+{"text": "tell me about support opening hours", "label": "support"}
+{"text": "what are the rules for the Studio headphones", "label": "products"}
+{"text": "is there a limit on tracking my parcel", "label": "shipping"}
+{"text": "I have a question about my account", "label": "account"}
+{"text": "I have a question about refund timing", "label": "refunds"}
+{"text": "can you explain the product range", "label": "products"}
+{"text": "what is the policy on exporting my data", "label": "account"}
+{"text": "what is the policy on Buds Pro specifications", "label": "products"}
+{"text": "how long does the warranty take", "label": "warranty"}
+{"text": "tell me about laptops", "label": "out_of_scope"}
+{"text": "can you explain out-of-warranty repairs", "label": "warranty"}
+{"text": "how long does the student discount take", "label": "promotions"}
+{"text": "what are the rules for the refund policy", "label": "refunds"}
+{"text": "tell me about the warranty", "label": "warranty"}
+{"text": "is there a limit on changing my email address", "label": "account"}
+{"text": "what is the policy on refund timing", "label": "refunds"}
+{"text": "how does phone plans work", "label": "out_of_scope"}
+{"text": "I have a question about getting my money back", "label": "refunds"}
+{"text": "how does changing my email address work", "label": "account"}
+{"text": "is there a limit on the Mini Speaker", "label": "products"}
+{"text": "can you explain the refund policy", "label": "refunds"}
+{"text": "what is the policy on Klarna instalments", "label": "payments"}
+{"text": "tell me about the product range", "label": "products"}
+{"text": "how does Buds Pro specifications work", "label": "products"}
+{"text": "is there a limit on two-factor authentication", "label": "account"}
+{"text": "how does the product range work", "label": "products"}
+{"text": "I have a question about deleting my account", "label": "account"}
+{"text": "how does response times work", "label": "support"}
+{"text": "I have a question about stock prices", "label": "out_of_scope"}
+{"text": "is there a limit on deleting my account", "label": "account"}
+{"text": "can you explain Klarna instalments", "label": "payments"}
+{"text": "how does when my card is charged work", "label": "payments"}
+{"text": "is there a limit on sending an item back", "label": "returns"}
+{"text": "how does express delivery work", "label": "shipping"}
+{"text": "how long does the 30-day return window take", "label": "returns"}
+{"text": "how long does the Black Friday sale take", "label": "promotions"}
+{"text": "I have a question about the restocking fee", "label": "refunds"}
+{"text": "what are the rules for the Black Friday sale", "label": "promotions"}
+{"text": "how does ticket references work", "label": "support"}
+{"text": "is there a limit on discounts", "label": "promotions"}
+{"text": "I have a question about writing code", "label": "out_of_scope"}
+{"text": "what are the rules for stacking coupons", "label": "promotions"}
+{"text": "what is the policy on price adjustments", "label": "promotions"}
+{"text": "how long does resetting my password take", "label": "account"}
+{"text": "what is the policy on ticket references", "label": "support"}
+{"text": "I have a question about the product range", "label": "products"}
+{"text": "tell me about when my card is charged", "label": "payments"}
+{"text": "how long does exporting my data take", "label": "account"}
+{"text": "how long does the weather take", "label": "out_of_scope"}
+{"text": "how long does the RMA process take", "label": "returns"}
+{"text": "is there a limit on the Black Friday sale", "label": "promotions"}
+{"text": "tell me about tracking my parcel", "label": "shipping"}
+{"text": "I have a question about the 30-day return window", "label": "returns"}
+{"text": "what is the policy on the phone number", "label": "support"}
+{"text": "what is the policy on express delivery", "label": "shipping"}
+{"text": "is there a limit on a declined card", "label": "payments"}
+{"text": "can you explain price adjustments", "label": "promotions"}
+{"text": "can you explain returning opened ear tips", "label": "returns"}
+{"text": "what is the policy on my account", "label": "account"}
+{"text": "tell me about price adjustments", "label": "promotions"}
+{"text": "tell me about ear cushion replacements", "label": "products"}
+{"text": "is there a limit on battery capacity coverage", "label": "warranty"}
+{"text": "what is the policy on the student discount", "label": "promotions"}
+{"text": "how does tracking my parcel work", "label": "shipping"}
+{"text": "tell me about the delivery cut-off", "label": "shipping"}
+{"text": "is there a limit on refunds", "label": "refunds"}
+{"text": "how long does support opening hours take", "label": "support"}
+{"text": "is there a limit on refund timing", "label": "refunds"}
+{"text": "can you explain stacking coupons", "label": "promotions"}
+{"text": "what are the rules for the authorisation hold", "label": "payments"}
+{"text": "what is the policy on sending an item back", "label": "returns"}
+{"text": "what is the policy on a recipe", "label": "out_of_scope"}
+{"text": "what are the rules for the weather", "label": "out_of_scope"}
+{"text": "how long does a refund to my card take", "label": "refunds"}
+{"text": "can you explain getting my money back", "label": "refunds"}
+{"text": "what are the rules for support opening hours", "label": "support"}
+{"text": "what is the policy on a warranty claim", "label": "warranty"}
+{"text": "tell me about out-of-warranty repairs", "label": "warranty"}
+{"text": "how does discounts work", "label": "promotions"}
+{"text": "how long does two-factor authentication take", "label": "account"}
+{"text": "is there a limit on laptops", "label": "out_of_scope"}
+{"text": "tell me about the phone number", "label": "support"}
+{"text": "what are the rules for writing code", "label": "out_of_scope"}
+{"text": "what are the rules for Buds Pro specifications", "label": "products"}
+{"text": "tell me about international shipping", "label": "shipping"}
+{"text": "what are the rules for a refund to my card", "label": "refunds"}
+{"text": "how does the weather work", "label": "out_of_scope"}
+{"text": "is there a limit on the delivery cut-off", "label": "shipping"}
+{"text": "what is the policy on the serial number", "label": "warranty"}
+{"text": "how long does express delivery take", "label": "shipping"}
+{"text": "can you explain refunds", "label": "refunds"}
+{"text": "can you explain the phone number", "label": "support"}
+{"text": "is there a limit on express delivery", "label": "shipping"}
+{"text": "what are the rules for changing my email address", "label": "account"}
+{"text": "what are the rules for the delivery cut-off", "label": "shipping"}
+{"text": "is there a limit on same-day delivery", "label": "shipping"}
+{"text": "can you explain phone plans", "label": "out_of_scope"}
+{"text": "how does a refund to my card work", "label": "refunds"}
+{"text": "is there a limit on ticket references", "label": "support"}
+{"text": "how long does phone plans take", "label": "out_of_scope"}
+{"text": "I have a question about the RMA process", "label": "returns"}
+{"text": "how long does returns take", "label": "returns"}
+{"text": "I have a question about when my card is charged", "label": "payments"}
+{"text": "what are the rules for getting my money back", "label": "refunds"}
+{"text": "how does the delivery cut-off work", "label": "shipping"}
+{"text": "how long does product prices take", "label": "products"}
+{"text": "how long does warranty in another country take", "label": "warranty"}
+{"text": "what is the policy on the referral credit", "label": "promotions"}
+{"text": "how does international shipping work", "label": "shipping"}
+{"text": "is there a limit on Buds Pro specifications", "label": "products"}
+{"text": "tell me about escalating a ticket", "label": "support"}
+{"text": "how does Klarna instalments work", "label": "payments"}
+{"text": "how long does Buds Pro specifications take", "label": "products"}
+{"text": "what is the policy on a refund to my card", "label": "refunds"}
+{"text": "how does refunds work", "label": "refunds"}
+{"text": "tell me about return shipping labels", "label": "returns"}
+{"text": "can you explain the authorisation hold", "label": "payments"}
+{"text": "I have a question about the warranty", "label": "warranty"}
+{"text": "is there a limit on the product range", "label": "products"}
+{"text": "is there a limit on stacking coupons", "label": "promotions"}
+{"text": "how does getting my money back work", "label": "refunds"}
+{"text": "what are the rules for ticket references", "label": "support"}
+{"text": "is there a limit on writing code", "label": "out_of_scope"}
+{"text": "can you explain refund timing", "label": "refunds"}
+{"text": "what are the rules for the phone number", "label": "support"}
+{"text": "is there a limit on the authorisation hold", "label": "payments"}
+{"text": "how long does returning opened ear tips take", "label": "returns"}
+{"text": "how long does price adjustments take", "label": "promotions"}
+{"text": "how does product prices work", "label": "products"}
+{"text": "what is the policy on ear cushion replacements", "label": "products"}
+{"text": "tell me about a warranty claim", "label": "warranty"}
+{"text": "I have a question about same-day delivery", "label": "shipping"}
+{"text": "how long does out-of-warranty repairs take", "label": "warranty"}
+{"text": "can you explain battery capacity coverage", "label": "warranty"}
+{"text": "tell me about stock prices", "label": "out_of_scope"}
+{"text": "how long does the delivery cut-off take", "label": "shipping"}
+{"text": "I have a question about resetting my password", "label": "account"}
+{"text": "can you explain when my card is charged", "label": "payments"}
+{"text": "can you explain my account", "label": "account"}
+{"text": "can you explain deleting my account", "label": "account"}
+{"text": "can you explain Buds Pro specifications", "label": "products"}
+{"text": "can you explain a declined card", "label": "payments"}
+{"text": "what are the rules for price adjustments", "label": "promotions"}
+{"text": "tell me about the Studio headphones", "label": "products"}
+{"text": "what are the rules for the RMA process", "label": "returns"}
+{"text": "what is the policy on response times", "label": "support"}
+{"text": "can you explain the serial number", "label": "warranty"}
+{"text": "what is the policy on deleting my account", "label": "account"}
+{"text": "I have a question about two-factor authentication", "label": "account"}
+{"text": "can you explain a warranty claim", "label": "warranty"}
+{"text": "what are the rules for deleting my account", "label": "account"}
+{"text": "what is the policy on resetting my password", "label": "account"}
+{"text": "how does the Mini Speaker work", "label": "products"}
+{"text": "can you explain contacting support", "label": "support"}
+{"text": "can you explain the restocking fee", "label": "refunds"}
+{"text": "is there a limit on a refund to my card", "label": "refunds"}
+{"text": "I have a question about battery capacity coverage", "label": "warranty"}
+{"text": "what are the rules for refunds", "label": "refunds"}
+{"text": "can you explain support opening hours", "label": "support"}
+{"text": "tell me about same-day delivery", "label": "shipping"}
+{"text": "what is the policy on warranty in another country", "label": "warranty"}
+{"text": "what are the rules for returns", "label": "returns"}
+{"text": "what are the rules for the product range", "label": "products"}
+{"text": "what is the policy on changing my email address", "label": "account"}
+{"text": "can you explain currency conversion", "label": "payments"}
+{"text": "what is the policy on same-day delivery", "label": "shipping"}
+{"text": "is there a limit on the serial number", "label": "warranty"}
+{"text": "is there a limit on the phone number", "label": "support"}
+{"text": "what is the policy on two-factor authentication", "label": "account"}
+{"text": "how long does shipping take", "label": "shipping"}
+{"text": "how long does the referral credit take", "label": "promotions"}
+{"text": "what is the policy on international shipping", "label": "shipping"}
+{"text": "how long does battery capacity coverage take", "label": "warranty"}
+{"text": "what is the policy on the 30-day return window", "label": "returns"}
+{"text": "what is the policy on the refund policy", "label": "refunds"}
+{"text": "what is the policy on out-of-warranty repairs", "label": "warranty"}
+{"text": "is there a limit on returning opened ear tips", "label": "returns"}
+{"text": "what is the policy on returns", "label": "returns"}
+{"text": "is there a limit on out-of-warranty repairs", "label": "warranty"}
+{"text": "tell me about Buds Pro specifications", "label": "products"}
+{"text": "what are the rules for two-factor authentication", "label": "account"}
+{"text": "tell me about refund timing", "label": "refunds"}
+{"text": "how does returning opened ear tips work", "label": "returns"}
+{"text": "I have a question about the student discount", "label": "promotions"}
+{"text": "can you explain laptops", "label": "out_of_scope"}
+{"text": "how long does currency conversion take", "label": "payments"}
+{"text": "I have a question about changing my email address", "label": "account"}
+{"text": "what is the policy on the delivery cut-off", "label": "shipping"}
+{"text": "is there a limit on the restocking fee", "label": "refunds"}
+{"text": "what is the policy on currency conversion", "label": "payments"}
+{"text": "can you explain return shipping labels", "label": "returns"}
+{"text": "how long does laptops take", "label": "out_of_scope"}
+{"text": "is there a limit on a warranty claim", "label": "warranty"}
+{"text": "what is the policy on getting my money back", "label": "refunds"}
+{"text": "how does battery capacity coverage work", "label": "warranty"}
+{"text": "how does stock prices work", "label": "out_of_scope"}
+{"text": "can you explain the Black Friday sale", "label": "promotions"}
+{"text": "what is the policy on the restocking fee", "label": "refunds"}
+{"text": "I have a question about a warranty claim", "label": "warranty"}
+{"text": "what is the policy on escalating a ticket", "label": "support"}
+{"text": "how long does writing code take", "label": "out_of_scope"}
+{"text": "what are the rules for the student discount", "label": "promotions"}
+{"text": "how does the refund policy work", "label": "refunds"}
+{"text": "can you explain warranty in another country", "label": "warranty"}
+{"text": "is there a limit on the refund policy", "label": "refunds"}
+{"text": "is there a limit on the weather", "label": "out_of_scope"}
+{"text": "what are the rules for Klarna instalments", "label": "payments"}
+{"text": "how does return shipping labels work", "label": "returns"}
+{"text": "I have a question about the Mini Speaker", "label": "products"}
+{"text": "how does support opening hours work", "label": "support"}
+{"text": "how long does the refund policy take", "label": "refunds"}
+{"text": "how does a warranty claim work", "label": "warranty"}
+{"text": "tell me about the refund policy", "label": "refunds"}

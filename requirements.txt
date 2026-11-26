@@ -1,0 +1,14 @@
+# Runtime deps for the API, agent, evaluations and UI.
+# Versions are the ones the results in README.md were measured with.
+fastapi==0.165.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.4
+python-dotenv==1.1.1
+slowapi==0.1.9
+httpx==0.28.1
+mcp==2.0.0
+scikit-learn==1.9.1
+numpy==2.4.6
+joblib==1.5.2
+streamlit==1.67.0
+pytest==9.2.0

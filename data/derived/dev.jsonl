@@ -1,0 +1,120 @@
+{"text": "what should I know about stock prices", "label": "out_of_scope"}
+{"text": "question about product prices", "label": "products"}
+{"text": "I need help with stock prices", "label": "out_of_scope"}
+{"text": "how do I handle resetting my password", "label": "account"}
+{"text": "where can I read about the 30-day return window", "label": "returns"}
+{"text": "what should I know about product prices", "label": "products"}
+{"text": "I need help with sending an item back", "label": "returns"}
+{"text": "where can I read about the product range", "label": "products"}
+{"text": "question about the serial number", "label": "warranty"}
+{"text": "I need help with ticket references", "label": "support"}
+{"text": "I need help with the delivery cut-off", "label": "shipping"}
+{"text": "where can I read about a warranty claim", "label": "warranty"}
+{"text": "where can I read about writing code", "label": "out_of_scope"}
+{"text": "where can I read about stacking coupons", "label": "promotions"}
+{"text": "question about out-of-warranty repairs", "label": "warranty"}
+{"text": "what should I know about a warranty claim", "label": "warranty"}
+{"text": "I need help with a refund to my card", "label": "refunds"}
+{"text": "question about the delivery cut-off", "label": "shipping"}
+{"text": "what should I know about my account", "label": "account"}
+{"text": "how do I handle battery capacity coverage", "label": "warranty"}
+{"text": "question about a warranty claim", "label": "warranty"}
+{"text": "I need help with resetting my password", "label": "account"}
+{"text": "what should I know about deleting my account", "label": "account"}
+{"text": "I need help with the 30-day return window", "label": "returns"}
+{"text": "how do I handle the student discount", "label": "promotions"}
+{"text": "I need help with price adjustments", "label": "promotions"}
+{"text": "what should I know about returning opened ear tips", "label": "returns"}
+{"text": "I need help with the restocking fee", "label": "refunds"}
+{"text": "what should I know about refund timing", "label": "refunds"}
+{"text": "where can I read about payments", "label": "payments"}
+{"text": "question about my account", "label": "account"}
+{"text": "how do I handle ticket references", "label": "support"}
+{"text": "where can I read about the delivery cut-off", "label": "shipping"}
+{"text": "what should I know about shipping", "label": "shipping"}
+{"text": "where can I read about stock prices", "label": "out_of_scope"}
+{"text": "question about exporting my data", "label": "account"}
+{"text": "how do I handle laptops", "label": "out_of_scope"}
+{"text": "where can I read about when my card is charged", "label": "payments"}
+{"text": "I need help with payments", "label": "payments"}
+{"text": "I need help with contacting support", "label": "support"}
+{"text": "what should I know about writing code", "label": "out_of_scope"}
+{"text": "how do I handle the Studio headphones", "label": "products"}
+{"text": "what should I know about support opening hours", "label": "support"}
+{"text": "how do I handle getting my money back", "label": "refunds"}
+{"text": "I need help with response times", "label": "support"}
+{"text": "what should I know about refunds", "label": "refunds"}
+{"text": "what should I know about resetting my password", "label": "account"}
+{"text": "what should I know about tracking my parcel", "label": "shipping"}
+{"text": "what should I know about international shipping", "label": "shipping"}
+{"text": "where can I read about the restocking fee", "label": "refunds"}
+{"text": "where can I read about resetting my password", "label": "account"}
+{"text": "I need help with the warranty", "label": "warranty"}
+{"text": "where can I read about contacting support", "label": "support"}
+{"text": "where can I read about ticket references", "label": "support"}
+{"text": "what should I know about two-factor authentication", "label": "account"}
+{"text": "what should I know about sending an item back", "label": "returns"}
+{"text": "where can I read about return shipping labels", "label": "returns"}
+{"text": "I need help with when my card is charged", "label": "payments"}
+{"text": "I need help with the student discount", "label": "promotions"}
+{"text": "where can I read about Buds Pro specifications", "label": "products"}
+{"text": "question about a declined card", "label": "payments"}
+{"text": "how do I handle the serial number", "label": "warranty"}
+{"text": "how do I handle the warranty", "label": "warranty"}
+{"text": "where can I read about the RMA process", "label": "returns"}
+{"text": "I need help with refunds", "label": "refunds"}
+{"text": "I need help with discounts", "label": "promotions"}
+{"text": "where can I read about price adjustments", "label": "promotions"}
+{"text": "I need help with the weather", "label": "out_of_scope"}
+{"text": "I need help with shipping", "label": "shipping"}
+{"text": "how do I handle stacking coupons", "label": "promotions"}
+{"text": "how do I handle the 30-day return window", "label": "returns"}
+{"text": "how do I handle changing my email address", "label": "account"}
+{"text": "I need help with tracking my parcel", "label": "shipping"}
+{"text": "where can I read about a recipe", "label": "out_of_scope"}
+{"text": "I need help with the Studio headphones", "label": "products"}
+{"text": "what should I know about the 30-day return window", "label": "returns"}
+{"text": "I need help with two-factor authentication", "label": "account"}
+{"text": "what should I know about response times", "label": "support"}
+{"text": "where can I read about getting my money back", "label": "refunds"}
+{"text": "I need help with the RMA process", "label": "returns"}
+{"text": "how do I handle ear cushion replacements", "label": "products"}
+{"text": "I need help with currency conversion", "label": "payments"}
+{"text": "what should I know about the phone number", "label": "support"}
+{"text": "what should I know about the referral credit", "label": "promotions"}
+{"text": "where can I read about product prices", "label": "products"}
+{"text": "question about phone plans", "label": "out_of_scope"}
+{"text": "question about return shipping labels", "label": "returns"}
+{"text": "where can I read about a declined card", "label": "payments"}
+{"text": "where can I read about the weather", "label": "out_of_scope"}
+{"text": "where can I read about currency conversion", "label": "payments"}
+{"text": "how do I handle refunds", "label": "refunds"}
+{"text": "where can I read about warranty in another country", "label": "warranty"}
+{"text": "I need help with a declined card", "label": "payments"}
+{"text": "how do I handle the product range", "label": "products"}
+{"text": "what should I know about laptops", "label": "out_of_scope"}
+{"text": "where can I read about out-of-warranty repairs", "label": "warranty"}
+{"text": "where can I read about discounts", "label": "promotions"}
+{"text": "how do I handle same-day delivery", "label": "shipping"}
+{"text": "how do I handle support opening hours", "label": "support"}
+{"text": "question about a refund to my card", "label": "refunds"}
+{"text": "question about response times", "label": "support"}
+{"text": "what should I know about escalating a ticket", "label": "support"}
+{"text": "what should I know about same-day delivery", "label": "shipping"}
+{"text": "question about the referral credit", "label": "promotions"}
+{"text": "where can I read about ear cushion replacements", "label": "products"}
+{"text": "where can I read about laptops", "label": "out_of_scope"}
+{"text": "where can I read about refunds", "label": "refunds"}
+{"text": "question about Klarna instalments", "label": "payments"}
+{"text": "where can I read about same-day delivery", "label": "shipping"}
+{"text": "I need help with the Mini Speaker", "label": "products"}
+{"text": "what should I know about express delivery", "label": "shipping"}
+{"text": "how do I handle payments", "label": "payments"}
+{"text": "what should I know about the warranty", "label": "warranty"}
+{"text": "I need help with the product range", "label": "products"}
+{"text": "what should I know about currency conversion", "label": "payments"}
+{"text": "where can I read about returns", "label": "returns"}
+{"text": "how do I handle the referral credit", "label": "promotions"}
+{"text": "where can I read about refund timing", "label": "refunds"}
+{"text": "I need help with changing my email address", "label": "account"}
+{"text": "what should I know about discounts", "label": "promotions"}

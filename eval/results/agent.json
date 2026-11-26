@@ -1,0 +1,492 @@
+{
+  "summary": {
+    "mode": "offline-extractive",
+    "model": "extractive-v1",
+    "mcp_connected": true,
+    "cases": 10,
+    "passed": 9,
+    "pass_rate": 0.9,
+    "tool_selection_accuracy": 1.0,
+    "fact_accuracy": 0.9,
+    "refusal_accuracy": 1.0,
+    "avg_latency_ms": 18,
+    "avg_steps": 2.7,
+    "total_cost_usd": 0.0
+  },
+  "rows": [
+    {
+      "id": "a01",
+      "text": "Where is order LA-10031 right now?",
+      "answer": "Order LA-10031 is in transit. Black Friday purchase. Address change requested after packing.",
+      "tools_called": [
+        "lookup_order",
+        "search_docs"
+      ],
+      "expected_tools": [
+        "lookup_order"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Contacting support > Escalation",
+        "Payments and billing > Declined payments"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "lookup_order",
+          "args_summary": "order_id=8 chars",
+          "observation": "order found, status=in transit",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=34 chars, k=4",
+          "observation": "4 passages, top: Contacting support > Escalation, Payments and billing > Declined payments",
+          "ok": true
+        },
+        {
+          "step": 3,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "4b42fde917e3",
+      "latency_ms": 130,
+      "cost_usd": 0.0,
+      "note": "Simple order status lookup."
+    },
+    {
+      "id": "a02",
+      "text": "My LA-10023 parcel arrived damaged. What are my options?",
+      "answer": "Order LA-10023 is delivered on 2026-11-21. Opened. Customer reported the left earbud cuts out intermittently. Report an item that arrived damaged, or an order that contained the wrong item, within 48 hours of delivery. Attach a photo of the item and the shipping box to the support ticket.",
+      "tools_called": [
+        "lookup_order",
+        "search_docs"
+      ],
+      "expected_tools": [
+        "lookup_order"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Returns > Damaged or wrong items",
+        "Shipping and delivery > Domestic shipping options"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "lookup_order",
+          "args_summary": "order_id=8 chars",
+          "observation": "order found, status=delivered",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=56 chars, k=4",
+          "observation": "4 passages, top: Returns > Damaged or wrong items, Returns > Refused and undeliverable parcels",
+          "ok": true
+        },
+        {
+          "step": 3,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "15f20be5de09",
+      "latency_ms": 7,
+      "cost_usd": 0.0,
+      "note": "Needs order lookup plus the damaged-parcel rule."
+    },
+    {
+      "id": "a03",
+      "text": "The left earbud on my Buds Pro from order LA-10023 keeps cutting out. Can you help?",
+      "answer": "Order LA-10023 is delivered on 2026-11-21. Opened. Customer reported the left earbud cuts out intermittently. It has the same fit as the Buds Pro but no noise cancelling and no wireless charging case. Lumen Buds Pro and Lumen Studio Over-Ear carry a 2-year limited warranty from the delivery date.",
+      "tools_called": [
+        "lookup_order",
+        "search_docs"
+      ],
+      "expected_tools": [
+        "lookup_order",
+        "search_docs"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Product catalogue > Lumen Buds Lite",
+        "Contacting support > Escalation",
+        "Warranty > Warranty periods"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "lookup_order",
+          "args_summary": "order_id=8 chars",
+          "observation": "order found, status=delivered",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=83 chars, k=4",
+          "observation": "4 passages, top: Product catalogue > Lumen Buds Lite, Contacting support > Escalation",
+          "ok": true
+        },
+        {
+          "step": 3,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "53cdcdefb033",
+      "latency_ms": 5,
+      "cost_usd": 0.0,
+      "note": "Order context plus warranty policy. Intermittent fault is a manufacturing defect."
+    },
+    {
+      "id": "a04",
+      "text": "If I return an unopened item after 20 days, do I get all my money back?",
+      "answer": "Unused items in their original packaging can be returned for a refund within 30 days of delivery. Opened items can be returned within 14 days of delivery, and a 15% restocking fee applies to opened items.",
+      "tools_called": [
+        "search_docs"
+      ],
+      "expected_tools": [
+        "search_docs"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Refund policy > Refund windows",
+        "Returns > Starting a return"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=71 chars, k=4",
+          "observation": "4 passages, top: Refund policy > Refund windows, Refund policy > Return shipping cost",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "939b726d16b7",
+      "latency_ms": 6,
+      "cost_usd": 0.0,
+      "note": "Refund window only, no order needed."
+    },
+    {
+      "id": "a05",
+      "text": "How do I start a warranty claim for my Studio headphones?",
+      "answer": "Start a warranty claim from Account, then Orders, then Warranty. Enter the serial number, which is printed on the box and shown in the Lumen app under Device details.",
+      "tools_called": [
+        "search_docs"
+      ],
+      "expected_tools": [
+        "search_docs"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Warranty > Making a claim"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=57 chars, k=4",
+          "observation": "4 passages, top: Warranty > Making a claim, Warranty > International warranty",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "97ef569c1576",
+      "latency_ms": 5,
+      "cost_usd": 0.0,
+      "note": "Warranty process, needs the serial number step."
+    },
+    {
+      "id": "a06",
+      "text": "Order LA-10062 says returned. Where is my refund?",
+      "answer": "Order LA-10062 is returned. Return received 2026-11-22 with RMA-8842. Refund pending, restocking fee applies. Unused items in their original packaging can be returned for a refund within 30 days of delivery. Opened items can be returned within 14 days of delivery, and a 15% restocking fee applies to opened items.",
+      "tools_called": [
+        "lookup_order",
+        "search_docs"
+      ],
+      "expected_tools": [
+        "lookup_order"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Refund policy > Refund windows",
+        "Returns > Refused and undeliverable parcels"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "lookup_order",
+          "args_summary": "order_id=8 chars",
+          "observation": "order found, status=returned",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=49 chars, k=4",
+          "observation": "4 passages, top: Refund policy > Refund windows, Refund policy > Return shipping cost",
+          "ok": true
+        },
+        {
+          "step": 3,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "eb453701e68f",
+      "latency_ms": 5,
+      "cost_usd": 0.0,
+      "note": "Order state plus refund timing."
+    },
+    {
+      "id": "a07",
+      "text": "Do you sell laptops or monitors?",
+      "answer": "I could not find that in the Lumen Audio help centre, so I will not guess. I can help with refunds, returns, warranty claims, shipping, payments, your account, promotions and product questions - or I can pass this to a human agent.",
+      "tools_called": [
+        "search_docs"
+      ],
+      "expected_tools": [],
+      "tools_ok": true,
+      "facts_ok": null,
+      "refusal_ok": true,
+      "refused": true,
+      "sources": [
+        "Product catalogue",
+        "Refund policy"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=32 chars, k=4",
+          "observation": "2 passages, top: Product catalogue, Refund policy",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "7fa5b8a176c7",
+      "latency_ms": 6,
+      "cost_usd": 0.0,
+      "note": "Out of scope. Must refuse instead of inventing a product."
+    },
+    {
+      "id": "a08",
+      "text": "I want to talk to a human about order LA-10044.",
+      "answer": "Order LA-10044 is delivered on 2026-10-06. Hygiene seal opened on one unit. Outside the 14-day opened-item window. Ticket LA-789173 created. A support specialist will reply within 4 business hours, Monday to Friday 9am-6pm Eastern Time. Reference: LA-789173.",
+      "tools_called": [
+        "lookup_order",
+        "search_docs",
+        "escalate_to_human"
+      ],
+      "expected_tools": [
+        "escalate_to_human"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Contacting support > Escalation",
+        "Payments and billing > Declined payments"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "lookup_order",
+          "args_summary": "order_id=8 chars",
+          "observation": "order found, status=delivered",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=47 chars, k=4",
+          "observation": "4 passages, top: Contacting support > Escalation, Contacting support > Hours and channels",
+          "ok": true
+        },
+        {
+          "step": 3,
+          "action": "tool",
+          "tool": "escalate_to_human",
+          "args_summary": "summary=47 chars",
+          "observation": "ticket created",
+          "ok": true
+        },
+        {
+          "step": 4,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "21234507b369",
+      "latency_ms": 8,
+      "cost_usd": 0.0,
+      "note": "Explicit escalation request, must produce a ticket reference."
+    },
+    {
+      "id": "a09",
+      "text": "The hygiene seal on one of my Buds Lite from LA-10044 is open and it will not charge. Is a refund possible?",
+      "answer": "Order LA-10044 is delivered on 2026-10-06. Hygiene seal opened on one unit. Outside the 14-day opened-item window. Ear tips and in-ear products cannot be refunded once the hygiene seal is broken, except when they are defective. If one item from a bundle is missing, we refund the bundle price minus the full list price of the missing item.",
+      "tools_called": [
+        "lookup_order",
+        "search_docs"
+      ],
+      "expected_tools": [
+        "lookup_order",
+        "search_docs"
+      ],
+      "tools_ok": true,
+      "facts_ok": false,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Refund policy > Refund exceptions",
+        "Product catalogue > Lumen Buds Lite",
+        "Returns > Products that cannot be returned"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "lookup_order",
+          "args_summary": "order_id=8 chars",
+          "observation": "order found, status=delivered",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=107 chars, k=4",
+          "observation": "4 passages, top: Refund policy > Refund exceptions, Product catalogue > Lumen Buds Lite",
+          "ok": true
+        },
+        {
+          "step": 3,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "f320672bb290",
+      "latency_ms": 5,
+      "cost_usd": 0.0,
+      "note": "Returns exception plus warranty. Order is outside the 14-day window."
+    },
+    {
+      "id": "a10",
+      "text": "The Studio I bought on 24 November is now cheaper. Can I get the difference back?",
+      "answer": "The Black Friday event runs from 24 to 30 November. Prices during the event are final and are not eligible for price adjustments.",
+      "tools_called": [
+        "search_docs"
+      ],
+      "expected_tools": [
+        "search_docs"
+      ],
+      "tools_ok": true,
+      "facts_ok": true,
+      "refusal_ok": true,
+      "refused": false,
+      "sources": [
+        "Promotions and discounts > Black Friday and holiday returns",
+        "Refund policy > Price adjustments"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "action": "tool",
+          "tool": "search_docs",
+          "args_summary": "query=81 chars, k=4",
+          "observation": "4 passages, top: Promotions and discounts > Black Friday and holiday returns, Refund policy > Price adjustments",
+          "ok": true
+        },
+        {
+          "step": 2,
+          "action": "final",
+          "tool": null,
+          "args_summary": null,
+          "observation": null,
+          "ok": true
+        }
+      ],
+      "trace_id": "ffecc524fc38",
+      "latency_ms": 5,
+      "cost_usd": 0.0,
+      "note": "Price adjustment is excluded during Black Friday - a trap for a shallow answer."
+    }
+  ]
+}

@@ -1,0 +1,675 @@
+{
+  "corpus": {
+    "chunks": 46,
+    "documents": 9,
+    "avg_chunk_chars": 273
+  },
+  "questions": 15,
+  "retrievers": {
+    "bm25": {
+      "recall@1": 0.846,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.923,
+      "hits@5": "13/13",
+      "answerable_top1_score": {
+        "min": 4.502,
+        "median": 8.38
+      },
+      "unanswerable_top1_score": {
+        "max": 6.221,
+        "median": 6.221
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds"
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds",
+            "returns"
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "warranty"
+          ],
+          "gold_docs": [
+            "warranty"
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "single",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "warranty",
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "support"
+          ],
+          "gold_docs": [
+            "support"
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "account"
+          ],
+          "gold_docs": [
+            "account"
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "payments"
+          ],
+          "gold_docs": [
+            "payments"
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions"
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q11",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "products",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q12",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q13",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "refunds",
+            "returns"
+          ],
+          "gold_docs": [
+            "returns",
+            "warranty"
+          ]
+        }
+      ]
+    },
+    "tfidf": {
+      "recall@1": 0.846,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.923,
+      "hits@5": "13/13",
+      "answerable_top1_score": {
+        "min": 0.23,
+        "median": 0.327
+      },
+      "unanswerable_top1_score": {
+        "max": 0.333,
+        "median": 0.333
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds"
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds",
+            "returns"
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "warranty"
+          ],
+          "gold_docs": [
+            "warranty"
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "single",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "warranty",
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "support"
+          ],
+          "gold_docs": [
+            "support"
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "account"
+          ],
+          "gold_docs": [
+            "account"
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "payments"
+          ],
+          "gold_docs": [
+            "payments"
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions"
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q11",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "products"
+          ],
+          "gold_docs": [
+            "products",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q12",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q13",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "refunds",
+            "returns"
+          ],
+          "gold_docs": [
+            "returns",
+            "warranty"
+          ]
+        }
+      ]
+    },
+    "lsa": {
+      "recall@1": 0.846,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.923,
+      "hits@5": "13/13",
+      "answerable_top1_score": {
+        "min": 0.543,
+        "median": 0.749
+      },
+      "unanswerable_top1_score": {
+        "max": 0.842,
+        "median": 0.842
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds"
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds",
+            "returns"
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "warranty"
+          ],
+          "gold_docs": [
+            "warranty"
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "single",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "warranty",
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "support"
+          ],
+          "gold_docs": [
+            "support"
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "account"
+          ],
+          "gold_docs": [
+            "account"
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "payments"
+          ],
+          "gold_docs": [
+            "payments"
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions"
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q11",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "products"
+          ],
+          "gold_docs": [
+            "products",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q12",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q13",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "refunds",
+            "returns"
+          ],
+          "gold_docs": [
+            "returns",
+            "warranty"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "recall@1": 0.846,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.923,
+      "hits@5": "13/13",
+      "answerable_top1_score": {
+        "min": 0.993,
+        "median": 1.0
+      },
+      "unanswerable_top1_score": {
+        "max": 1.0,
+        "median": 1.0
+      },
+      "per_question": [
+        {
+          "id": "q01",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds"
+          ]
+        },
+        {
+          "id": "q02",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "refunds"
+          ],
+          "gold_docs": [
+            "refunds",
+            "returns"
+          ]
+        },
+        {
+          "id": "q03",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "warranty"
+          ],
+          "gold_docs": [
+            "warranty"
+          ]
+        },
+        {
+          "id": "q04",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q05",
+          "type": "single",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "warranty",
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q06",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "support"
+          ],
+          "gold_docs": [
+            "support"
+          ]
+        },
+        {
+          "id": "q07",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "account"
+          ],
+          "gold_docs": [
+            "account"
+          ]
+        },
+        {
+          "id": "q08",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "payments"
+          ],
+          "gold_docs": [
+            "payments"
+          ]
+        },
+        {
+          "id": "q09",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions"
+          ]
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "shipping"
+          ],
+          "gold_docs": [
+            "shipping"
+          ]
+        },
+        {
+          "id": "q11",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "products"
+          ],
+          "gold_docs": [
+            "products",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q12",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 1,
+          "retrieved_docs_top3": [
+            "promotions"
+          ],
+          "gold_docs": [
+            "promotions",
+            "refunds"
+          ]
+        },
+        {
+          "id": "q13",
+          "type": "multi",
+          "rank_of_first_gold_chunk": 2,
+          "retrieved_docs_top3": [
+            "refunds",
+            "returns"
+          ],
+          "gold_docs": [
+            "returns",
+            "warranty"
+          ]
+        }
+      ]
+    }
+  },
+  "shipped": "tfidf"
+}

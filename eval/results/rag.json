@@ -1,0 +1,402 @@
+{
+  "summary": {
+    "mode": "offline-extractive",
+    "model": "extractive-v1",
+    "retriever": "hybrid",
+    "questions": 15,
+    "retrieval_hit_rate": 1.0,
+    "answer_fact_rate": 0.846,
+    "answer_fact_count": "11/13",
+    "refusal_accuracy": 0.933,
+    "refusal_count": "14/15",
+    "unanswerable_refused": "1/2",
+    "ungrounded_answers": 0,
+    "avg_latency_ms": 2,
+    "total_cost_usd": 0.0
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "type": "single",
+      "question": "What is the return window for an opened item?",
+      "answer": "Opened items can be returned within 14 days of delivery, and a 15% restocking fee applies to opened items. Unused items in their original packaging can be returned for a refund within 30 days of delivery.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "refunds"
+      ],
+      "retrieved_docs": [
+        "promotions",
+        "refunds",
+        "returns"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Refund policy > Refund windows",
+        "Returns > Starting a return",
+        "Promotions and discounts > Black Friday and holiday returns"
+      ],
+      "latency_ms": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q02",
+      "type": "single",
+      "question": "How much does a prepaid return label cost me?",
+      "answer": "For all other returns we deduct 8.95 USD from the refund for a prepaid US return label. If you refuse a parcel that was not damaged, the return is treated as a normal return and the 8.95 USD return label cost applies.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "refunds",
+        "returns"
+      ],
+      "retrieved_docs": [
+        "refunds",
+        "returns"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Refund policy > Return shipping cost",
+        "Returns > Refused and undeliverable parcels"
+      ],
+      "latency_ms": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q03",
+      "type": "single",
+      "question": "How long is the warranty on the Lumen Buds Lite?",
+      "answer": "Lumen Buds Lite and Lumen Mini Speaker carry a 1-year limited warranty. Lumen Buds Pro and Lumen Studio Over-Ear carry a 2-year limited warranty from the delivery date.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "warranty"
+      ],
+      "retrieved_docs": [
+        "products",
+        "warranty"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Warranty > Warranty periods",
+        "Warranty > Out-of-warranty repairs",
+        "Product catalogue > Product line"
+      ],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q04",
+      "type": "single",
+      "question": "What does express shipping cost and how fast is it?",
+      "answer": "Express shipping costs 14.95 USD and arrives in 1 to 2 business days when the order is placed before the 2pm ET cut-off. Same-day and express shipping are not available at these addresses.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "shipping"
+      ],
+      "retrieved_docs": [
+        "refunds",
+        "returns",
+        "shipping"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Shipping and delivery > Remote US addresses",
+        "Shipping and delivery > Domestic shipping options"
+      ],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q05",
+      "type": "single",
+      "question": "How many countries do you ship to?",
+      "answer": "The warranty is valid in the 12 countries we ship to, through local service partners. We ship to 12 countries: Canada, the United Kingdom, Ireland, Germany, France, Spain, Italy, the Netherlands, Sweden, Australia, New Zealand and Japan.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "shipping"
+      ],
+      "retrieved_docs": [
+        "refunds",
+        "shipping",
+        "warranty"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Warranty > International warranty",
+        "Shipping and delivery > International shipping",
+        "Refund policy"
+      ],
+      "latency_ms": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q06",
+      "type": "single",
+      "question": "Can I cancel an order that is already with the carrier?",
+      "answer": "Support cannot change a shipping address after an order reaches packing, cannot cancel a parcel already with the carrier, and cannot issue a refund to a different payment method from the one used for the order.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "support"
+      ],
+      "retrieved_docs": [
+        "account",
+        "refunds",
+        "shipping",
+        "support"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Contacting support > What support cannot do",
+        "Account and privacy > Deleting your account"
+      ],
+      "latency_ms": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q07",
+      "type": "single",
+      "question": "How long is a password reset link valid?",
+      "answer": "A password reset link is valid for 30 minutes and can be used once. The export is prepared within 30 days and sent as a download link valid for 7 days.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "account"
+      ],
+      "retrieved_docs": [
+        "account",
+        "refunds",
+        "support"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Account and privacy > Signing in",
+        "Account and privacy > Exporting your data"
+      ],
+      "latency_ms": 3,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q08",
+      "type": "single",
+      "question": "When is my card actually charged?",
+      "answer": "Your card is charged when the order ships, not when it is placed.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "payments"
+      ],
+      "retrieved_docs": [
+        "payments",
+        "products"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Payments and billing > When you are charged"
+      ],
+      "latency_ms": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q09",
+      "type": "single",
+      "question": "What discount do students get?",
+      "answer": "The student discount cannot be combined with sale items or with the Black Friday event.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "promotions"
+      ],
+      "retrieved_docs": [
+        "promotions"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": false,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Promotions and discounts > Student discount"
+      ],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q10",
+      "type": "single",
+      "question": "Which cities have same-day delivery?",
+      "answer": "Same-day delivery is available in New York City, Los Angeles and Chicago for 24.95 USD on orders placed before 11am local time. Same-day delivery is not available on Sundays.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "shipping"
+      ],
+      "retrieved_docs": [
+        "products",
+        "refunds",
+        "shipping"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Shipping and delivery > Domestic shipping options",
+        "Shipping and delivery > Remote US addresses"
+      ],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q11",
+      "type": "multi",
+      "question": "I opened my Lumen Buds Pro and want to send them back within 14 days. How much will I actually get back?",
+      "answer": "Opened items can be returned within 14 days of delivery, and a 15% restocking fee applies to opened items. Lumen Buds Pro and Lumen Studio Over-Ear carry a 2-year limited warranty from the delivery date.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "refunds",
+        "products"
+      ],
+      "retrieved_docs": [
+        "products",
+        "refunds",
+        "warranty"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Refund policy > Refund windows",
+        "Warranty > Warranty periods",
+        "Warranty > Out-of-warranty repairs"
+      ],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q12",
+      "type": "multi",
+      "question": "What is the last date I can return something I bought on Black Friday?",
+      "answer": "The Black Friday event runs from 24 to 30 November. Price adjustments exclude flash sales and are not available on Black Friday purchases.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "promotions",
+        "refunds"
+      ],
+      "retrieved_docs": [
+        "promotions",
+        "refunds"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": false,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Promotions and discounts > Black Friday and holiday returns",
+        "Refund policy > Price adjustments",
+        "Promotions and discounts > Price drops"
+      ],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q13",
+      "type": "multi",
+      "question": "The hygiene seal on my Buds Lite is broken and one earbud is dead. Can I still get help?",
+      "answer": "Ear tips and in-ear products cannot be refunded once the hygiene seal is broken, except when they are defective. Ear tips and in-ear products cannot be returned once the hygiene seal is broken, except when they are defective.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [
+        "returns",
+        "warranty"
+      ],
+      "retrieved_docs": [
+        "products",
+        "refunds",
+        "returns",
+        "warranty"
+      ],
+      "retrieval_hit": true,
+      "keyword_ok": true,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Refund policy > Refund exceptions",
+        "Returns > Products that cannot be returned"
+      ],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q14",
+      "type": "unanswerable",
+      "question": "Do you offer a military discount?",
+      "answer": "I could not find that in the Lumen Audio help centre, so I will not guess. I can help with refunds, returns, warranty claims, shipping, payments, your account, promotions and product questions - or I can pass this to a human agent.",
+      "refused": true,
+      "refusal_reason": "not_in_documents",
+      "gold_docs": [],
+      "retrieved_docs": [
+        "promotions"
+      ],
+      "retrieval_hit": null,
+      "keyword_ok": null,
+      "refusal_ok": true,
+      "ungrounded_numbers": [],
+      "sources": [],
+      "latency_ms": 1,
+      "cost_usd": 0.0
+    },
+    {
+      "id": "q15",
+      "type": "unanswerable",
+      "question": "What is the personal email address of your CEO?",
+      "answer": "Changing your email address requires confirmation from both the old and the new address.",
+      "refused": false,
+      "refusal_reason": null,
+      "gold_docs": [],
+      "retrieved_docs": [
+        "account",
+        "payments",
+        "support"
+      ],
+      "retrieval_hit": null,
+      "keyword_ok": null,
+      "refusal_ok": false,
+      "ungrounded_numbers": [],
+      "sources": [
+        "Account and privacy > Changing your details"
+      ],
+      "latency_ms": 2,
+      "cost_usd": 0.0
+    }
+  ]
+}

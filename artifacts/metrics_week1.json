@@ -1,0 +1,168 @@
+{
+  "model": "tfidf_word_1_2 + logistic_regression(C=4)",
+  "train_rows": 480,
+  "eval": {
+    "template_dev": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "account": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "payments": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "products": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "promotions": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "refunds": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "returns": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "shipping": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "support": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "warranty": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        },
+        "out_of_scope": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 12
+        }
+      },
+      "top_confusions": [],
+      "n": 120
+    },
+    "handwritten_40": {
+      "accuracy": 0.9,
+      "macro_f1": 0.896,
+      "per_class": {
+        "account": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1": 0.889,
+          "support": 4
+        },
+        "payments": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "products": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "promotions": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "refunds": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "returns": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.667,
+          "support": 4
+        },
+        "shipping": {
+          "precision": 0.75,
+          "recall": 0.75,
+          "f1": 0.75,
+          "support": 4
+        },
+        "support": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.857,
+          "support": 4
+        },
+        "warranty": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 4
+        },
+        "out_of_scope": {
+          "precision": 0.667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 4
+        }
+      },
+      "top_confusions": [
+        {
+          "actual": "returns",
+          "predicted": "shipping",
+          "count": 1
+        },
+        {
+          "actual": "returns",
+          "predicted": "out_of_scope",
+          "count": 1
+        },
+        {
+          "actual": "shipping",
+          "predicted": "out_of_scope",
+          "count": 1
+        },
+        {
+          "actual": "support",
+          "predicted": "account",
+          "count": 1
+        }
+      ],
+      "n": 40
+    }
+  },
+  "headline": {
+    "dev_accuracy": 1.0,
+    "handwritten_accuracy": 0.9,
+    "handwritten_macro_f1": 0.896
+  }
+}

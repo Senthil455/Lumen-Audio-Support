@@ -1,0 +1,15 @@
+{"id": "q01", "type": "single", "question": "What is the return window for an opened item?", "gold_docs": ["refunds"], "must_contain": ["14"], "note": "Opened items are 14 days."}
+{"id": "q02", "type": "single", "question": "How much does a prepaid return label cost me?", "gold_docs": ["refunds", "returns"], "must_contain": ["8.95"], "note": "Deducted from the refund on non-defective returns."}
+{"id": "q03", "type": "single", "question": "How long is the warranty on the Lumen Buds Lite?", "gold_docs": ["warranty"], "must_contain": ["1-year", "1 year"], "note": "1 year."}
+{"id": "q04", "type": "single", "question": "What does express shipping cost and how fast is it?", "gold_docs": ["shipping"], "must_contain": ["14.95"], "note": "14.95 USD, 1 to 2 business days."}
+{"id": "q05", "type": "single", "question": "How many countries do you ship to?", "gold_docs": ["shipping"], "must_contain": ["12"], "note": "12 countries."}
+{"id": "q06", "type": "single", "question": "Can I cancel an order that is already with the carrier?", "gold_docs": ["support"], "must_contain": ["cannot"], "note": "Support cannot cancel once with the carrier."}
+{"id": "q07", "type": "single", "question": "How long is a password reset link valid?", "gold_docs": ["account"], "must_contain": ["30 minutes"], "note": "30 minutes, single use."}
+{"id": "q08", "type": "single", "question": "When is my card actually charged?", "gold_docs": ["payments"], "must_contain": ["ship"], "note": "At ship time, not order time."}
+{"id": "q09", "type": "single", "question": "What discount do students get?", "gold_docs": ["promotions"], "must_contain": ["15"], "note": "15%."}
+{"id": "q10", "type": "single", "question": "Which cities have same-day delivery?", "gold_docs": ["shipping"], "must_contain": ["New York", "Chicago"], "note": "NYC, LA, Chicago."}
+{"id": "q11", "type": "multi", "question": "I opened my Lumen Buds Pro and want to send them back within 14 days. How much will I actually get back?", "gold_docs": ["refunds", "products"], "must_contain": ["15", "179"], "note": "Needs the restocking fee from refunds and the price from products. 179 - 15% = 152.15."}
+{"id": "q12", "type": "multi", "question": "What is the last date I can return something I bought on Black Friday?", "gold_docs": ["promotions", "refunds"], "must_contain": ["15 January"], "note": "Holiday window from promotions overrides the standard window."}
+{"id": "q13", "type": "multi", "question": "The hygiene seal on my Buds Lite is broken and one earbud is dead. Can I still get help?", "gold_docs": ["returns", "warranty"], "must_contain": ["warranty", "defect"], "note": "No refund, but the warranty covers a defect."}
+{"id": "q14", "type": "unanswerable", "question": "Do you offer a military discount?", "gold_docs": [], "must_contain": [], "note": "Only a student discount exists. The assistant must refuse."}
+{"id": "q15", "type": "unanswerable", "question": "What is the personal email address of your CEO?", "gold_docs": [], "must_contain": [], "note": "Never in the knowledge base. Must refuse."}
