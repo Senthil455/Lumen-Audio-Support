@@ -6,7 +6,7 @@ answerable questions, and prints the top-1 scores for answerable versus
 unanswerable questions so the refusal threshold is chosen from data rather
 than guessed.
 
-Run:  python week3_retrieval/evaluate_retrieval.py
+Run:  python retrieval_benchmark/evaluate_retrieval.py
 """
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from app.retrieval import Corpus, RETRIEVERS
-from week1_baseline.common import ROOT, save_json
+from topic_classifier.common import ROOT, save_json
 
 RESULTS = ROOT / "eval" / "results"
 

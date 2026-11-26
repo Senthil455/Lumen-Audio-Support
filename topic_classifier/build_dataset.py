@@ -14,7 +14,7 @@ The hand-written questions in data/eval/topic_test.jsonl are NEVER used for
 training. They are the honest check: templated questions are easy, a person
 phrasing the same question is not.
 
-Run:  python week1_baseline/build_dataset.py
+Run:  python topic_classifier/build_dataset.py
 """
 
 from __future__ import annotations

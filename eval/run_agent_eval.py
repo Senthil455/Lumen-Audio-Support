@@ -18,7 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from app.agent.loop import Agent
 from app.agent.mcp_client import MCPDocsClient
-from week1_baseline.common import ROOT, save_json
+from topic_classifier.common import ROOT, save_json
 
 CASES = ROOT / "data" / "eval" / "agent_cases.json"
 RESULTS_DIR = ROOT / "eval" / "results"

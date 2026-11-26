@@ -71,7 +71,7 @@ Mode: `offline-extractive`, model `extractive-v1`, retriever `hybrid`.
 | Answer contains expected fact | 0.900 |
 | Refusal behaviour correct | 1.000 |
 | Average steps per run | 2.7 |
-| Average latency | 34 ms |
+| Average latency | 25 ms |
 | MCP transport connected | True |
 
 | # | Question | Tools called | Passed |

@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from app.pipeline import RAGPipeline
 from app.retrieval import Corpus
-from week1_baseline.common import ROOT, save_json
+from topic_classifier.common import ROOT, save_json
 
 QUESTIONS = ROOT / "data" / "eval" / "questions.jsonl"
 RESULTS_DIR = ROOT / "eval" / "results"

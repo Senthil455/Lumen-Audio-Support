@@ -2,10 +2,10 @@
 
 Run everything fresh with:
 
-    python week1_baseline/build_dataset.py
-    python week1_baseline/train_baseline.py
-    python week2_deep_learning/train_mlp.py
-    python week3_retrieval/evaluate_retrieval.py
+    python topic_classifier/build_dataset.py
+    python topic_classifier/train_baseline.py
+    python topic_classifier_mlp/train_mlp.py
+    python retrieval_benchmark/evaluate_retrieval.py
     python eval/run_rag_eval.py
     python eval/run_agent_eval.py
     python eval/make_report.py

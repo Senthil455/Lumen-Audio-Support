@@ -5,8 +5,8 @@ docs is this about, and is it in scope at all?" was answered by a cheap
 classifier. It is kept in the repository because the progression from a
 scikit-learn baseline to a deployed agent is the thing being assessed.
 
-Run:  python week1_baseline/build_dataset.py
-      python week1_baseline/train_baseline.py
+Run:  python topic_classifier/build_dataset.py
+      python topic_classifier/train_baseline.py
 """
 
 from __future__ import annotations
@@ -21,7 +21,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 
-from week1_baseline.common import (
+from topic_classifier.common import (
     ARTIFACTS,
     LABELS,
     load_handwritten,

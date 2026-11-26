@@ -39,7 +39,7 @@
         "Returns > Starting a return",
         "Promotions and discounts > Black Friday and holiday returns"
       ],
-      "latency_ms": 3,
+      "latency_ms": 2,
       "cost_usd": 0.0
     },
     {
@@ -117,7 +117,7 @@
         "Shipping and delivery > Remote US addresses",
         "Shipping and delivery > Domestic shipping options"
       ],
-      "latency_ms": 2,
+      "latency_ms": 1,
       "cost_usd": 0.0
     },
     {
@@ -197,7 +197,7 @@
         "Account and privacy > Signing in",
         "Account and privacy > Exporting your data"
       ],
-      "latency_ms": 1,
+      "latency_ms": 2,
       "cost_usd": 0.0
     },
     {
@@ -353,7 +353,7 @@
         "Refund policy > Refund exceptions",
         "Returns > Products that cannot be returned"
       ],
-      "latency_ms": 2,
+      "latency_ms": 1,
       "cost_usd": 0.0
     },
     {

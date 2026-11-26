@@ -9,7 +9,7 @@ only way the comparison means anything.
 Outcome on the hand-written test set is stored in artifacts/metrics_week2.json.
 The script also saves the MLP so the winner can be shipped.
 
-Run:  python week2_deep_learning/train_mlp.py
+Run:  python topic_classifier_mlp/train_mlp.py
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.neural_network import MLPClassifier
 from sklearn.pipeline import Pipeline
 
-from week1_baseline.common import (
+from topic_classifier.common import (
     ARTIFACTS,
     LABELS,
     load_handwritten,

@@ -83,10 +83,10 @@ Open <http://localhost:8501>. Without `LLM_API_KEY` the service uses a determini
 Reproduce the evaluations:
 
 ```bash
-python week1_baseline/build_dataset.py
-python week1_baseline/train_baseline.py
-python week2_deep_learning/train_mlp.py
-python week3_retrieval/evaluate_retrieval.py
+python topic_classifier/build_dataset.py
+python topic_classifier/train_baseline.py
+python topic_classifier_mlp/train_mlp.py
+python retrieval_benchmark/evaluate_retrieval.py
 python eval/run_rag_eval.py
 python eval/run_agent_eval.py
 python eval/make_report.py           # writes eval/RESULTS.md
@@ -216,9 +216,9 @@ The Buds Lite product description contains both "Buds" and "Pro" and outranks th
 
 | Week | Question it answered | Where it lives | Kept because |
 | --- | --- | --- | --- |
-| 1 | Which topic is this question about, and is it in scope? | `week1_baseline/`, `artifacts/topic_model.joblib` | It is the shipped router and the baseline the later work is measured against. |
-| 2 | Does a neural model beat the baseline? | `week2_deep_learning/` | The honest answer was no, and the comparison is the deliverable. |
-| 3 | Which retrieval method should serve the answers? | `week3_retrieval/` | BM25, TF-IDF and LSA are compared on the same chunks with recall and MRR. |
+| 1 | Which topic is this question about, and is it in scope? | `topic_classifier/`, `artifacts/topic_model.joblib` | It is the shipped router and the baseline the later work is measured against. |
+| 2 | Does a neural model beat the baseline? | `topic_classifier_mlp/` | The honest answer was no, and the comparison is the deliverable. |
+| 3 | Which retrieval method should serve the answers? | `retrieval_benchmark/` | BM25, TF-IDF and LSA are compared on the same chunks with recall and MRR. |
 
 The Week 2 model is a small MLP over TF-IDF features, not a transformer, and the README says so because a transformer on 480 templated rows would measure memorisation.
 
@@ -301,9 +301,9 @@ app/
     loop.py          plan -> act -> observe -> answer, plus traces
     tools.py         three tools and their schemas
     mcp_client.py    persistent MCP session in its own thread
-week1_baseline/      dataset builder + logistic regression baseline
-week2_deep_learning/ MLP comparison
-week3_retrieval/     BM25 vs TF-IDF vs LSA evaluation
+topic_classifier/      dataset builder + logistic regression baseline
+topic_classifier_mlp/  the MLP comparison against it
+retrieval_benchmark/   BM25 vs TF-IDF vs LSA evaluation
 eval/                RAG and agent evaluations, RESULTS.md
 ui/streamlit_app.py  Streamlit front end
 deploy/              Dockerfiles and the HF Space README
@@ -320,7 +320,7 @@ data/orders.json     fake orders with masked customer fields
 | Requirement | Where |
 | --- | --- |
 | Defined user and problem | Support customers asking policy questions; answered in the intro and README. |
-| Week 1-3 work visible | `week1_baseline/`, `week2_deep_learning/`, `week3_retrieval/`; the Week 1 model is the live router. |
+| Week 1-3 work visible | `topic_classifier/`, `topic_classifier_mlp/`, `retrieval_benchmark/`; the Week 1 model is the live router. |
 | Agent with 3+ tools, one via MCP | `app/agent/`, `app/mcp_server.py`; `search_docs` runs over stdio MCP. |
 | Logged traces | `logs/traces.jsonl`, `GET /traces/{id}`, `GET /stats`. |
 | 10+ test cases with results | 15 `/ask` questions, 10 agent cases, 40 classification questions, 18 pytest tests, `eval/RESULTS.md`. |
