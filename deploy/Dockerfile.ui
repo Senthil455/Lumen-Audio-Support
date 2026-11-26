@@ -1,0 +1,18 @@
+# UI image for Hugging Face Spaces. Spaces route traffic to port 7860.
+FROM python:3.11-slim
+
+ENV PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /app
+
+RUN pip install streamlit==1.67.0 requests==2.32.5
+
+COPY ui/streamlit_app.py ./ui/streamlit_app.py
+
+# API_URL is set as a Space secret (Settings -> Variables and secrets).
+ENV API_URL=http://127.0.0.1:8000
+
+EXPOSE 7860
+
+CMD ["streamlit", "run", "ui/streamlit_app.py", "--server.port", "7860", "--server.address", "0.0.0.0", "--server.headless", "true", "--browser.gatherUsageStats", "false"]

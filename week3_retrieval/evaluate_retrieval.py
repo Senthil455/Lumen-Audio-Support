@@ -125,9 +125,20 @@ def main() -> None:
             f"{metrics['recall@5']:6.3f} {metrics['mrr']:6.3f}"
         )
 
-    best = max(payload["retrievers"], key=lambda n: (payload["retrievers"][n]["mrr"], n))
-    payload["shipped"] = best
-    print(f"\nbest MRR: {best}")
+    best = max(payload["retrievers"], key=lambda n: payload["retrievers"][n]["mrr"])
+    best_mrr = payload["retrievers"][best]["mrr"]
+    # The retrievers tie on this corpus. Ship the hybrid, because it keeps both
+    # a lexical and a vector signal and therefore degrades more gracefully on
+    # wording the evaluation did not include.
+    payload["shipped"] = (
+        "hybrid" if payload["retrievers"]["hybrid"]["mrr"] == best_mrr else best
+    )
+    payload["tied_at_top"] = sorted(
+        name
+        for name, metrics in payload["retrievers"].items()
+        if metrics["mrr"] == best_mrr
+    )
+    print(f"\nbest MRR: {best} ({best_mrr:.3f}); shipped: {payload['shipped']}")
 
     print("\nMisses at rank 1 (hybrid):")
     for item in payload["retrievers"]["hybrid"]["per_question"]:

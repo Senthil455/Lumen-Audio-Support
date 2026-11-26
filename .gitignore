@@ -1,0 +1,26 @@
+# Environments and secrets
+.env
+.venv/
+venv/
+
+# Runtime output
+logs/
+tests/_logs/
+tests/_runtime/
+data/runtime/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Generated derived data can be rebuilt from scripts
+# (kept out of git; the model artifact stays in so deploys work)
+data/derived/train.jsonl
+data/derived/dev.jsonl

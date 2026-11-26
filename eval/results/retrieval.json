@@ -671,5 +671,11 @@
       ]
     }
   },
-  "shipped": "tfidf"
+  "shipped": "hybrid",
+  "tied_at_top": [
+    "bm25",
+    "hybrid",
+    "lsa",
+    "tfidf"
+  ]
 }

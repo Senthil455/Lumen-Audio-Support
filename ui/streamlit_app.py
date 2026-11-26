@@ -15,7 +15,12 @@ import streamlit as st
 API_URL = os.environ.get("API_URL", "http://127.0.0.1:8000").rstrip("/")
 TIMEOUT = 45
 
-st.set_page_config(page_title="Lumen Audio Support Copilot", page_icon="🎧", layout="centered")
+st.set_page_config(
+    page_title="Lumen Audio Support Copilot",
+    page_icon="🎧",
+    layout="centered",
+    initial_sidebar_state="collapsed",
+)
 
 
 @st.cache_data(ttl=30)

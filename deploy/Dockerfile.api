@@ -1,0 +1,25 @@
+# API image. Railway sets $PORT; the container must bind 0.0.0.0.
+FROM python:3.11-slim
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app ./app
+COPY data/docs ./data/docs
+COPY data/orders.json ./data/orders.json
+COPY artifacts ./artifacts
+
+RUN mkdir -p logs data/runtime
+
+ENV PORT=8000
+EXPOSE 8000
+
+# Q&A endpoints stay healthy even if the MCP server cannot be spawned; the
+# agent then uses the in-process tool and /info reports mcp_connected=false.
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT}"]

@@ -9,7 +9,7 @@
     "tool_selection_accuracy": 1.0,
     "fact_accuracy": 0.9,
     "refusal_accuracy": 1.0,
-    "avg_latency_ms": 18,
+    "avg_latency_ms": 34,
     "avg_steps": 2.7,
     "total_cost_usd": 0.0
   },
@@ -59,8 +59,8 @@
           "ok": true
         }
       ],
-      "trace_id": "4b42fde917e3",
-      "latency_ms": 130,
+      "trace_id": "256d4f7a7ee2",
+      "latency_ms": 254,
       "cost_usd": 0.0,
       "note": "Simple order status lookup."
     },
@@ -109,8 +109,8 @@
           "ok": true
         }
       ],
-      "trace_id": "15f20be5de09",
-      "latency_ms": 7,
+      "trace_id": "b55a68c2c939",
+      "latency_ms": 10,
       "cost_usd": 0.0,
       "note": "Needs order lookup plus the damaged-parcel rule."
     },
@@ -161,8 +161,8 @@
           "ok": true
         }
       ],
-      "trace_id": "53cdcdefb033",
-      "latency_ms": 5,
+      "trace_id": "a8fd123d3703",
+      "latency_ms": 9,
       "cost_usd": 0.0,
       "note": "Order context plus warranty policy. Intermittent fault is a manufacturing defect."
     },
@@ -202,8 +202,8 @@
           "ok": true
         }
       ],
-      "trace_id": "939b726d16b7",
-      "latency_ms": 6,
+      "trace_id": "86e863eedf86",
+      "latency_ms": 9,
       "cost_usd": 0.0,
       "note": "Refund window only, no order needed."
     },
@@ -242,8 +242,8 @@
           "ok": true
         }
       ],
-      "trace_id": "97ef569c1576",
-      "latency_ms": 5,
+      "trace_id": "4ae75149a0aa",
+      "latency_ms": 9,
       "cost_usd": 0.0,
       "note": "Warranty process, needs the serial number step."
     },
@@ -292,8 +292,8 @@
           "ok": true
         }
       ],
-      "trace_id": "eb453701e68f",
-      "latency_ms": 5,
+      "trace_id": "52458f5a2d06",
+      "latency_ms": 9,
       "cost_usd": 0.0,
       "note": "Order state plus refund timing."
     },
@@ -331,15 +331,15 @@
           "ok": true
         }
       ],
-      "trace_id": "7fa5b8a176c7",
-      "latency_ms": 6,
+      "trace_id": "06d5ba4736ad",
+      "latency_ms": 8,
       "cost_usd": 0.0,
       "note": "Out of scope. Must refuse instead of inventing a product."
     },
     {
       "id": "a08",
       "text": "I want to talk to a human about order LA-10044.",
-      "answer": "Order LA-10044 is delivered on 2026-10-06. Hygiene seal opened on one unit. Outside the 14-day opened-item window. Ticket LA-789173 created. A support specialist will reply within 4 business hours, Monday to Friday 9am-6pm Eastern Time. Reference: LA-789173.",
+      "answer": "Order LA-10044 is delivered on 2026-10-06. Hygiene seal opened on one unit. Outside the 14-day opened-item window. Ticket LA-328382 created. A support specialist will reply within 4 business hours, Monday to Friday 9am-6pm Eastern Time. Reference: LA-328382.",
       "tools_called": [
         "lookup_order",
         "search_docs",
@@ -390,8 +390,8 @@
           "ok": true
         }
       ],
-      "trace_id": "21234507b369",
-      "latency_ms": 8,
+      "trace_id": "dbf9b75dfa7a",
+      "latency_ms": 11,
       "cost_usd": 0.0,
       "note": "Explicit escalation request, must produce a ticket reference."
     },
@@ -442,8 +442,8 @@
           "ok": true
         }
       ],
-      "trace_id": "f320672bb290",
-      "latency_ms": 5,
+      "trace_id": "6bcd8c8ce179",
+      "latency_ms": 8,
       "cost_usd": 0.0,
       "note": "Returns exception plus warranty. Order is outside the 14-day window."
     },
@@ -483,8 +483,8 @@
           "ok": true
         }
       ],
-      "trace_id": "ffecc524fc38",
-      "latency_ms": 5,
+      "trace_id": "82bb4358514a",
+      "latency_ms": 8,
       "cost_usd": 0.0,
       "note": "Price adjustment is excluded during Black Friday - a trap for a shallow answer."
     }
